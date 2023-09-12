@@ -11,8 +11,8 @@
 </head>
 <body>
 	<%
-	 String accessCode= "AVHU13JG47CI18UHIC";		//Put in the Access Code in quotes provided by CCAVENUES.
-	 String workingKey = "FDE1D2BAF9BB80A383B0A8282736C86B";    //Put in the 32 Bit Working Key provided by CCAVENUES.  
+	 String accessCode= "";		//Put in the Access Code in quotes provided by CCAVENUES.
+	 String workingKey = "";    //Put in the 32 Bit Working Key provided by CCAVENUES.  
 	 Enumeration enumeration=request.getParameterNames();
 	 String ccaRequest="", pname="", pvalue="";
 	 while(enumeration.hasMoreElements()) {
